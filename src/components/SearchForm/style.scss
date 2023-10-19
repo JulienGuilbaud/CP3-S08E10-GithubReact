@@ -1,0 +1,51 @@
+.searchform {
+
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+
+  label {
+    flex-grow: 1;
+
+    span {
+      font-weight: bold;
+      color: #777;
+      display: block;
+      margin-bottom: .5rem;
+    }
+  }
+
+  input  {
+    width: 100%;
+    padding: 1rem;
+    border: 0;
+    border-bottom: 2px solid black;
+
+    &:hover {
+      background-color: #eee;
+    }
+
+    &:focus {
+      outline: 0;
+      background-color: #ddd;
+    }
+  }
+
+  button  {
+    margin-left: .5rem;
+    padding: 1rem;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #333;
+    }
+
+    &:focus {
+      outline: 2px solid orange;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@use 'reset-css';
+
+* {
+  box-sizing: border-box;
+}
+
+input, button {
+  font: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f0f0;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  padding: 2rem;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  font-size: 3em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
